@@ -119,7 +119,7 @@ I pair traditional engineering discipline (typed APIs, real integration tests, C
 ### GitHub stats
 
 <div align="center">
-<img height="165" src="https://github-stats-extended-frontend-orpin.vercel.app/api?username=nurul287&show_icons=true&theme=default&hide_border=true&count_private=true" />
+<img height="165" src="https://github-stats-extended-frontend-orpin.vercel.app/api?username=nurul287&show_icons=true&theme=default&hide_border=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" />
 <img height="165" src="https://github-stats-extended-frontend-orpin.vercel.app/api/top-langs/?username=nurul287&layout=compact&theme=default&hide_border=true" />
 </div>
 <div align="center">
