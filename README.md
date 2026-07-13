@@ -106,23 +106,6 @@ I pair traditional engineering discipline (typed APIs, real integration tests, C
 
 ### Featured projects
 
-<div align="center">
-
-<a href="https://github.com/nurul287/Aurevo.BE">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul287&repo=Aurevo.BE&theme=default&hide_border=true" />
-</a>
-<a href="https://github.com/nurul287/Aurevo.UI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul287&repo=Aurevo.UI&theme=default&hide_border=true" />
-</a>
-<a href="https://github.com/nurul287/chatly">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul287&repo=chatly&theme=default&hide_border=true" />
-</a>
-<a href="https://github.com/nurul287/PH-University-Server">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul287&repo=PH-University-Server&theme=default&hide_border=true" />
-</a>
-
-</div>
-
 | Project | Stack | Description |
 |---|---|---|
 | [**Aurevo.BE**](https://github.com/nurul287/Aurevo.BE) | Express · TypeScript · Drizzle ORM · Supabase | E-commerce REST API — modular monolith, JWT/JWKS auth, atomic stock accounting, AI shopping assistant |
