@@ -34,6 +34,7 @@ I pair traditional engineering discipline (typed APIs, real integration tests, C
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+![Stitch](https://img.shields.io/badge/Stitch-4285F4?style=flat-square&logoColor=white)
 
 **Languages**
 <br/>
