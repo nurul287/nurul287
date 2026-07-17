@@ -116,6 +116,31 @@ I pair traditional engineering discipline (typed APIs, real integration tests, C
 
 ---
 
+### 🤖 Featured build — AI Shopping Assistant (RAG)
+
+Rebuilt Aurevo Fashion's chatbot from a bare Claude tool-use bot (no retrieval, no persistence, simulated streaming) into a full **retrieval-augmented generation** pipeline: semantic product search, policy/FAQ answers, and auth-gated order lookup — with real token streaming and conversation persistence. Full writeup: [`Aurevo.BE/docs/09-ai-chatbot-rag.md`](https://github.com/nurul287/Aurevo.BE/blob/main/docs/09-ai-chatbot-rag.md).
+
+```mermaid
+flowchart LR
+    subgraph ING["📥 Offline Ingestion"]
+        PROD[Products DB] --> EMB["Chunk + Embed (Voyage AI)"]
+        POL[Policy / FAQ docs] --> EMB
+        EMB --> KB[("kb_chunks — pgvector")]
+    end
+
+    subgraph RUN["💬 Runtime Chat"]
+        WID["Chat Widget (SSE)"] --> CS["Chat Service — Claude tool-use loop"]
+        CS -->|"search_knowledge"| KB
+        CS -->|"get_product_details"| PDB[(Live product DB)]
+        CS -->|"get_my_orders 🔒 auth-gated"| ORD[(Orders)]
+        CS --> OUT["Streamed reply + persisted conversation"]
+    end
+
+    ING --> RUN
+```
+
+---
+
 ### GitHub stats
 
 <div align="center">
